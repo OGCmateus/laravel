@@ -1,30 +1,6 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login - Adote um Amigo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-      .bg-custom-primary { background-color: #402F25; }
-      .bg-custom-secondary { background-color: #8C796D; }
-      .text-custom-primary { color: #6FD904; }
-      .btn-custom-primary { background-color: #6FD904; color: #fff; }
-      .btn-custom-primary:hover { background-color: #5cb200; }
-      .login-container {
-        max-width: 400px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        background-color: #fff;
-        margin-top: 100px;
-      }
-      .login-container h2 {
-        color: #402F25;
-      }
-    </style>
-  </head>
+@extends('_partials/main')
+
+@section('conteudo')
   <body class="bg-custom-secondary">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom-primary">
@@ -67,13 +43,4 @@
       </form>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-custom-primary text-white text-center py-3 fixed-bottom">
-      <div class="container">
-        <p>&copy; 2023 Adote um Amigo. Todos os direitos reservados.</p>
-      </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html>
+    @endsection

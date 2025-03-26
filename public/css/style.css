@@ -1,15 +1,15 @@
-.bg-custom-primary { background-color: #402F25; }
-.bg-custom-secondary { background-color: #8C796D; }
-.text-custom-primary { color: #6FD904; }
-.btn-custom-primary { background-color: #6FD904; color: #fff; }
+.bg-custom-primary { background-color: #3b3b3b; }
+.bg-custom-secondary { background-color: #cecece; }
+.text-custom-primary { color: #4c9700; }
+.btn-custom-primary { background-color: #438104; color: #fff; }
 .btn-custom-primary:hover { background-color: #5cb200; }
 
 /* Pagina detalhes animal */
-.bg-custom-primary { background-color: #402F25; }
-.bg-custom-secondary { background-color: #8C796D; }
-.text-custom-primary { color: #6FD904; }
-.btn-custom-primary { background-color: #6FD904; color: #fff; }
-.btn-custom-primary:hover { background-color: #5cb200; }
+.bg-custom-primary { background-color: #636363; }
+.bg-custom-secondary { background-color: #bebebe; }
+.text-custom-primary { color: #a50505; }
+.btn-custom-primary { background-color: #fd5e59; color: #fff; }
+.btn-custom-primary:hover { background-color: #f0f0f0; }
 .animal-details-container {
 max-width: 800px;
 margin: auto;
@@ -22,3 +22,23 @@ margin-top: 50px;
 .animal-details-container img {
 border-radius: 10px;
 }
+
+
+.bg-custom-primary { background-color: #265C4B; }
+.bg-custom-secondary { background-color: #146551; }
+.text-custom-primary { color: #007566; }
+.btn-custom-primary { background-color: #589A8D; color: #fff; }
+.btn-custom-primary:hover { background-color: #8FC1B5; }
+.register-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 100px;
+}
+.register-container h2 {
+  color: #402F25;
+}
+
