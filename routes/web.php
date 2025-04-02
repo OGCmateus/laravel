@@ -18,7 +18,9 @@ Route::get('/adocao', [App\Http\Controllers\Adocao::class, 'adocao'])->name('ado
 Route::get('/detalhes-animal', [App\Http\Controllers\DetalhesAnimal::class, 'detalhesAnimal'])->name('detalhes-animal');
 Route::get('/listar-animais', [App\Http\Controllers\ListarAnimais::class, 'listarAnimais'])->name('listar-animais');
 Route::get('/login', [App\Http\Controllers\Login::class, 'login'])->name('login');
-Route::get('/registro', [App\Http\Controllers\Registro::class, 'registro'])->name('registro');
 
+Route::get('/registro', [App\Http\Controllers\Registro::class, 'registro'])->name('registro');
 Route::post('/registro', [App\Http\Controllers\Registro::class, 'criarConta'])->name('registro');
 
+Route::get('/add-animal', [App\Http\Controllers\AddAnimal::class, 'add-animal'])->name('add-animal');
+Route::post('/add-animal', [App\Http\Controllers\AddAnimal::class, 'adicionarAnimal'])->name('add-animal');

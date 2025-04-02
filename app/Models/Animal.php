@@ -12,3 +12,4 @@ class Animal extends Model
     protected $fillable = ['nome', 'cor', 'peso', 'idade', 'especie', 'raca'];
 
 }
+
