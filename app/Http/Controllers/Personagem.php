@@ -14,8 +14,7 @@ class Personagem extends Controller
     function salvarPersonagem(Request $dados){
         //crie o codigo para salvar no bd
         $personagem = new Personagens();
-        $personagem = $dados->all();
-        $personagem->save();
+        $personagem->create($dados->all());
     }
 
     function listarPersonagem() {
